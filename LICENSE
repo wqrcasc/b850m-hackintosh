@@ -1,0 +1,49 @@
+# 许可
+
+## 文档（`docs/`、`README.md`）
+
+采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 协议。
+
+你可以自由复制、修改、再分发，甚至商用，
+**条件是保留署名，并且你改出来的版本也要用同样的协议分享出来。**
+
+## 脚本（`assets/scripts/`）
+
+采用 [MIT](https://opensource.org/licenses/MIT) 协议。
+
+```
+MIT License
+
+Copyright (c) 2026 b850m-hackintosh contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 二进制文件
+
+`assets/efi/` 里的 `SSDT-*.aml` 由本仓库的 `.dsl` 源码用 `iasl` 编译得到。
+
+`apfs_aligned.efi` **不在本仓库中**（版权归其作者），
+请从 [RapidEFI-Tool](https://github.com/JeoJay127/RapidEFI-Tool) 获取。
+
+## 免责声明
+
+刷 BIOS、抹盘、改 EFI 都有风险。
+本文记录的是**一台特定机器**上的经验，不保证适用于你的硬件。
+动手前请备份，出问题请自己负责。

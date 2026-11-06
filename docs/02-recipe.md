@@ -1,4 +1,4 @@
-# 可复现步骤：从零到桌面
+﻿# 可复现步骤：从零到桌面
 
 > 目标：在 **AMD B850 + Zen4/Zen5 + NVIDIA Turing/Blackwell** 的机器上装 macOS 26 Tahoe。
 > 全程**不需要**在物理机上跑联网安装器。
